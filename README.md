@@ -4,6 +4,8 @@ Language model inference code by Kenneth Heafield (kenlm at kheafield.com)
 
 The website https://kheafield.com/code/kenlm/ has more documentation.  If you're a decoder developer, please download the latest version from there instead of copying from another decoder.
 
+NOTE: This is a forked repo with the only changing being allowing use of models up to 12-gram instead of 6-gram.
+
 ## Compiling
 Use cmake, see [BUILDING](BUILDING) for build dependencies and more detail.
 ```bash
