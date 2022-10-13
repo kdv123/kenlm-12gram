@@ -11,7 +11,7 @@ def compile_test(header, library):
     command = "bash -c \"g++ -include " + header + " -l" + library + " -x c++ - <<<'int main() {}' -o " + dummy_path + " >/dev/null 2>/dev/null && rm " + dummy_path + " 2>/dev/null\""
     return os.system(command) == 0
 
-max_order = "6"
+max_order = "12"
 is_max_order = [s for s in sys.argv if "--max_order" in s]
 for element in is_max_order:
     max_order = re.split('[= ]',element)[1]
