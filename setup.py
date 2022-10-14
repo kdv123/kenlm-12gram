@@ -58,7 +58,7 @@ ext_modules = [
 
 setup(
     name='kenlm-12gram',
-    version='v1.0.0',
+    version='1.0.1',
     ext_modules=ext_modules,
     include_package_data=True,
 )
