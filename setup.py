@@ -58,7 +58,8 @@ ext_modules = [
 
 setup(
     name='kenlm-12gram',
-    version='1.0.1',
+    version='1.0.2',
+    url='https://github.com/kdv123/kenlm'
     ext_modules=ext_modules,
     include_package_data=True,
 )
