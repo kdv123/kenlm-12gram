@@ -116,7 +116,7 @@ ext_modules = [
 
 setup(
     name='kenlm-12gram',
-    version='1.0.3',
+    version='1.0.4',
     url='https://github.com/kdv123/kenlm',
     ext_modules=ext_modules,
     cmdclass={"build_ext": build_ext},
